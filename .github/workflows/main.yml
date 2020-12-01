@@ -23,9 +23,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v1
-      - name: npm star, install and build webpack
+      - name: npm install and build webpack
         run: |
-          npm start
           npm install
           npm run build
           
