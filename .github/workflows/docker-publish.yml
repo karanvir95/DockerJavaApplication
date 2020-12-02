@@ -15,7 +15,7 @@ on:
 
 env:
   # TODO: Change variable to your image's name.
-  IMAGE_NAME: DockerJavaApp
+  IMAGE_NAME: happy_tesla
 
 jobs:
   # Run tests.
